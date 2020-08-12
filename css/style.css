@@ -1,7 +1,7 @@
 body {
     background-color: #17191C;
     display: flex;
-    padding: 4rem 6rem;
+    padding: 4rem;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -11,10 +11,13 @@ body {
 }
 
 .left {
-    width: 60%;
-    background-color: #665AED;
+    width: 70%;
+    background-color: #5F55EB;
     border-radius: 10px;
-    padding: 2rem 6rem;
+    padding: 4rem 6rem;
+    background-image: url(../media/bggg.jpg);
+    background-blend-mode: lighten;
+    background-size: cover;
 }
 
 .nav-brand {
@@ -73,6 +76,86 @@ body {
 }
 
 .right {
-    width: 40%;
+    width: 30%;
     background-color: #1C1E21;
+    padding: 3rem 2rem;
+}
+
+.right p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: .7rem;
+}
+
+.right span {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: #9B9C9D;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.input-field {
+    border: 0.01rem solid #9B9C9D;
+    background-color: #1C1E21;
+    display: flex;
+    align-items: center;
+    padding: 1rem .2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.input-field:hover {
+    border-color: #5F55EB;
+}
+
+.input-field img {
+    margin: 0 .9rem;
+}
+
+.input-field input {
+    background-color: #1C1E21;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+.ch {
+    display: flex;
+    align-items: center;
+}
+
+.ch input {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.ch span {
+    color: white;
+    padding-left: .5rem;
+}
+
+.ch span a {
+    color: #495CD3;
+    text-decoration: none;
+}
+
+button {
+    margin: 2rem 0;
+    background-color: #5F55EB;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1.5rem 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-radius: 10px;
 }
