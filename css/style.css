@@ -102,7 +102,7 @@ form {
 }
 
 .input-field {
-    border: 0.01rem solid #9B9C9D;
+    border: 0.01rem solid #2f3337;
     background-color: #1C1E21;
     display: flex;
     align-items: center;
@@ -158,4 +158,25 @@ button {
     font-weight: 800;
     font-size: 1.5rem;
     border-radius: 10px;
+}
+
+p.con {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #9B9C9D;
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials img {
+    border: 1px solid #2f3337;
+    border-radius: 50%;
+    padding: .8rem;
+    margin: 0 .5rem;
 }
